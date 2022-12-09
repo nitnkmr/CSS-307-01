@@ -1,0 +1,128 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    height: 60vh;
+    background-color:#1b1a27;
+    width: 20vw;
+    border: 2px solid black;
+    justify-self: center;
+    margin: auto;
+    border-radius: 12px;
+    
+}
+.btn{
+    height: 80%;
+    width: 96%;
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ 
+   
+}
+.equals{
+  
+    height: 15%;
+    width: 25%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color:#f70169;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+
+
+}
+.equals:hover{
+  
+    height: 15%;
+    width: 25%;
+    font-size: 20px;
+    color: rgb(9, 6, 1);
+    background-color:#e35c95;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+
+
+}
+.symbols{
+  
+    height: 15%;
+    width: 18%;
+    font-size: 20px;
+    color: rgb(19, 18, 17);
+    background-color: rgb(227, 243, 55);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+.symbols:hover{
+  
+    height: 15%;
+    width: 18%;
+    font-size: 20px;
+    color: rgb(204, 218, 8);
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+button{
+    height: 15%;
+    width: 25%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color:#65268f;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+button:hover{
+    height: 15%;
+    width: 25%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color:#b55af2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+.display{
+    display:flex;
+    margin: 5px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    border-radius: 10px 20px;
+    color:grey;
+   
+    
+    
+    
+
+}
+.display div{
+    background-color:#c8c8cb;
+    text-align: center;
+    display: flex;
+    width: 95%;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 4px rgb(18, 18, 18);
+    padding: 5px;
+}
+.display button{
+    height: 53px;
+    background-color:#f70169;
+    margin:0 5px;
+    
+}
+.display button:hover{
+    height: 53px;
+    background-color:#f72e01;
+    margin:0 5px;
+    
+}
+h1{
+    text-align: center;
+    margin: 5%;
+}
